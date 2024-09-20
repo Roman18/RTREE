@@ -3,7 +3,7 @@ use std::ffi::OsString;
 
 #[derive(Parser)]
 #[command(name="rtree")]
-#[command(name="1.0")]
+#[command(version="1.0")]
 #[command(about="Rusty version of tree unix tool", long_about=None)]
 pub struct Args{
     #[arg(default_value = ".")]
